@@ -15,4 +15,6 @@ public class Main {
         String st = sc.next();
         System.out.println(T.solution(st));
     }
+
+
 }
