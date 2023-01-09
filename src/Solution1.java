@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Solution {
+class Solution1 {
     public void solution(int N) {
         int enable_print = N / 10;
         while (N > 0) {
@@ -16,7 +16,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution s = new Solution();
+        Solution1 s = new Solution1();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
        s.solution(n);

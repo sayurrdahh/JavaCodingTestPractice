@@ -24,7 +24,7 @@ public class test5 {
         answer = String.valueOf(s);
         return answer;
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         test5 T = new test5();
         Scanner sc = new Scanner(System.in);
