@@ -22,12 +22,6 @@ public class queue2 {
                 need.toCharArray()) {
             q.offer(x);
         }
-        for (char x :
-                plan.toCharArray()) {
-            if (q.contains(x)) {
-                if (x != q.poll()) return "NO";
-            }
-        }
         if (!q.isEmpty()) return "NO";
 
         return answer;
